@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-container{
+    
+    text-align: center;
+    background-color: #c1e2f6;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    box-shadow: 3px 3px rgb(158, 157, 157);
+    border: none;
+}
+
+.quiz-container button{
+    width: 20%;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    margin-top: 40px;
+    background-color: #339cf2;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+}
+.quiz-container button:hover{
+    background-color: #0a81e3;
+}
+.quiz-container ul{
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 50px;
+}
+.quiz-container ul li{
+    margin: 18px 0;
+    text-align: left;
+    margin-left: 50px;
+}
+.quiz-container ul li label{
+    cursor: pointer;
+}
+
+.button2{
+    width: 150px;
+}
